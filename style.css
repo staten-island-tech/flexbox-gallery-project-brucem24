@@ -6,61 +6,23 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: lightblue;
 }
-.post {
-  font-size: 10rem;
-  text-align: center;
-  margin-top: 100px;
+body {
+  background-color: cornflowerblue;
 }
-.parent {
-  font-size: 5rem;
+.gallery {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 75px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1rem auto;
 }
-.child {
+.gallery-card {
+  height: 50rem;
   width: 28%;
-  border-radius: 15px;
-  background-color: linen;
+  background-color: lightcyan;
+  margin: 3rem auto;
+  font-size: 5rem;
   text-align: center;
-  border: 5px solid lightgoldenrodyellow;
-  height: 450px;
-  color: red;
-}
-.child-1 {
-  background-image: url(img/DS1.webp);
-  background-size: 450px;
-}
-.child-2 {
-  background-image: url(img/Cinder.png);
-  background-size: 500px;
-}
-.child-3 {
-  background-image: url(img/Bloodborne.jpg);
-  background-size: 500px;
-}
-.child-4 {
-  background-image: url(img/DOOM.jpg);
-  background-size: 480px;
-}
-.child-5 {
-  background-image: url(img/BOTW.jpg);
-  background-size: 600px;
-}
-.child-6 {
-  background-image: url(img/SMO.jpg);
-  background-size: 450px;
-}
-.child-7 {
-  background-image: url(img/Silver.jpg);
-  background-size: 480px;
-}
-.child-8 {
-  background-image: url(img/GTA.png);
-}
-.child-9 {
-  background-image: url(img/U4.jpg);
-  background-size: 480px;
+  border: solid 3px blue;
+  border-radius: 30px;
 }
