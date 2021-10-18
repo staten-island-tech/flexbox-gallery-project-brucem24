@@ -6,18 +6,32 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 50%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 70%;
+  }
 }
 body {
   background-color: rgb(63, 53, 53);
 }
+
 .main-header {
   font-size: 10rem;
   text-align: center;
   color: lightgoldenrodyellow;
 }
 .main-header:hover {
-  transform: rotate(1turn);
-  transition: all 1s;
+  transform: rotate(3turn);
+  transition: all 3s;
 }
 .gallery {
   display: flex;
@@ -28,7 +42,7 @@ body {
 .gallery-card {
   height: 58rem;
   width: 28%;
-  background-color: lightgoldenrodyellow;
+  background-color: burlywood;
   margin: 3rem auto;
   font-size: 5rem;
   text-align: center;
@@ -39,7 +53,7 @@ body {
 .card-img {
   height: 35rem;
   width: 75%;
-  border: 2px solid yellow;
+  border: 2px solid whitesmoke;
   border-radius: 30px;
 }
 .gallery-quote {
@@ -83,10 +97,14 @@ body {
 @media screen and (max-width: 800px) {
   .gallery-card {
     width: 45%;
+    color: darkred;
+    background-color: goldenrod;
   }
 }
 @media screen and (max-width: 600px) {
   .gallery-card {
     width: 80%;
+    color: darkviolet;
+    background-color: lightgray;
   }
 }
