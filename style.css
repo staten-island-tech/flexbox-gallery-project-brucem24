@@ -6,11 +6,6 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  animation-name: fadein;
-  animation-duration: 1s;
-}
-body {
-  background-color: black;
 }
 @keyframes fadein {
   0% {
@@ -20,10 +15,16 @@ body {
     opacity: 1;
   }
 }
+body {
+  background-color: blanchedalmond;
+  animation-name: fadein;
+  animation-duration: 5s;
+}
+
 .main-header {
   font-size: 10rem;
   text-align: center;
-  color: lightgoldenrodyellow;
+  color: black;
 }
 .main-header:hover {
   transform: rotate(3turn);
@@ -46,6 +47,7 @@ body {
   border-radius: 3rem;
   outline-offset: 1rem;
 }
+
 .card-img {
   height: 35rem;
   width: 75%;
@@ -55,7 +57,6 @@ body {
 .gallery-quote {
   font-size: 2rem;
   margin: 1.5rem;
-  background-color: burlywood;
 }
 .gallery-card:hover {
   transform: scale(1.05);
@@ -95,7 +96,7 @@ body {
   .gallery-card {
     width: 45%;
     color: darkred;
-    background-color: goldenrod;
+    background-color: lightsteelblue;
   }
 }
 @media screen and (max-width: 600px) {
